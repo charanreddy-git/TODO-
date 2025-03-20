@@ -1,0 +1,66 @@
+/* Base Styles */
+body {
+    padding: 50px;
+    font-family: sans-serif;
+    background: #f9f9f9;
+  }
+  
+  /* Main Container */
+  #container {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Top Section: Heading, Input, and Button */
+  #top {
+    text-align: left;
+  }
+  
+  #top h1 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  #top input,
+  #top button {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #top button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #top button:hover {
+    background: #0056b3;
+  }
+  
+  /* Todo List */
+  #todos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #todos li {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background: #fefefe;
+  }
+  
